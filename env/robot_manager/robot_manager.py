@@ -608,7 +608,7 @@ class RobotManager:
 
         scene_cfg = self._get_robot_cfg(robot_name=robot_name)
         if "usd_path" in cfg:
-            scene_cfg.spawn.usd_path = ensure_usd_path(os.path.join(ROBOTS_PATH, cfg["usd_path"]))
+            scene_cfg.spawn.usd_path = os.path.join(ROBOTS_PATH, cfg["usd_path"])
 
         # Default rule:
         # - single robot: use robot.entity_origin_pose

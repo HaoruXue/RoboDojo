@@ -43,9 +43,16 @@ material, geometry and task-placement fields remain unchanged.
 
 Download upstream assets at revision
 `63fcc045f2e974902eb7800d29de48004cf86016`, then apply the reviewed bundle:
+use a fresh fork checkout without an existing `Assets` directory.
+`init_assets.sh` skips an already complete asset tree; setting `HF_REVISION`
+does not update that tree. Verify the private asset checkout revision below
+before extracting corrections. For an existing tree from another revision,
+prepare a separate fresh checkout.
 
 ```bash
 HF_REVISION=63fcc045f2e974902eb7800d29de48004cf86016 bash scripts/init_assets.sh
+test "$(git -C .cache/robodojo_assets_repo rev-parse HEAD)" = \
+  63fcc045f2e974902eb7800d29de48004cf86016
 gh release download audited-assets-20261116 --repo HaoruXue/RoboDojo \
   --pattern audited-masses-20261116.tar.gz
 sha256sum --check asset_overrides/audited-masses-20261116.sha256

@@ -1,10 +1,11 @@
 """Create an X5 USD override with finger friction 1.2 and maximum combining.
 
-Run with Isaac's USD/PhysX Python environment. Point the X5 spawn configuration
+Run with RoboDojo's Isaac Python environment. Point the X5 spawn configuration
 at the output file and restart the simulator to load the contact experiment.
 """
 
 import argparse
+import os
 from pathlib import Path
 
 
@@ -26,7 +27,7 @@ def build_contact_override(source: Path, output: Path) -> None:
             raise ValueError(f"missing X5 finger collider: {path}")
 
     stage = Usd.Stage.CreateNew(str(output))
-    stage.GetRootLayer().subLayerPaths = [str(source)]
+    stage.GetRootLayer().subLayerPaths = [os.path.relpath(source, output.parent)]
     for name in ("upAxis", "metersPerUnit", "kilogramsPerUnit"):
         if original.HasAuthoredMetadata(name):
             stage.SetMetadata(name, original.GetMetadata(name))
@@ -53,4 +54,8 @@ if __name__ == "__main__":
     parser.add_argument("--source", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
+    from isaaclab.app import AppLauncher
+
+    app = AppLauncher(headless=True).app
     build_contact_override(args.source, args.output)
+    app.close()
