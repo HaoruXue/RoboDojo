@@ -1,5 +1,5 @@
-# YAM arm (i2rt linear_4310 gripper) for RoboDojo. yam.urdf / yam.usd / assets/
-# are generated next to this file by scripts/robodojo_yam_assets.py.
+# YAM arm configuration for the i2rt linear_4310 gripper.
+# scripts/robodojo_yam_assets.py copies this file beside generated robot assets.
 urdf_path: "./yam.urdf"
 ee_joints: "joint6"
 # MuJoCo grasp_site of the training model; used for ee_pose observations and

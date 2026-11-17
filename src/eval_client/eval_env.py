@@ -477,11 +477,14 @@ def create_eval_env(config, app, resume_state=None, *, model_client_cls=WsModelC
 
             This method returns a list with `interpolation_nums` control dicts
             (deep copies of the input), then overwrites arm/gripper positions
-            frame by frame:
+            frame by frame for robots without `hold_targets`:
 
             - First 80% (floor) steps: linear interpolation from current state
                 to target state.
             - Last 20% steps: hold the target state.
+
+            For target robots with `hold_targets`, every returned substep uses
+            the final processed arm and gripper positions.
 
             Notes:
             - Arm joints are interpolated in joint space.

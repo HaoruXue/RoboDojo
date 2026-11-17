@@ -22,7 +22,7 @@ annotator:
 
 # ZED X stereo wide, default left eye: 120 mm baseline, body centered at X=0.
 # Height/fore-aft position follow yam_station_linear_4310_d405's optical origin
-# as a mount proxy: 0.95432053 m above and 0.16649488 m behind the URDF bases.
+# as a mount proxy: 0.94482053 m above and 0.16649488 m behind the URDF bases.
 # Tilt is visually fitted for the ZED. Env-frame position; wxyz quaternion.
 cam_head:
   camera:
