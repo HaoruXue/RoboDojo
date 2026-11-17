@@ -56,7 +56,8 @@ test "$(git -C .cache/robodojo_assets_repo rev-parse HEAD)" = \
 gh release download audited-assets-20261116 --repo HaoruXue/RoboDojo \
   --pattern audited-masses-20261116.tar.gz
 sha256sum --check asset_overrides/audited-masses-20261116.sha256
-tar --unlink-first -xzf audited-masses-20261116.tar.gz
+tar --unlink-first --strip-components=1 -xzf audited-masses-20261116.tar.gz \
+  -C "$(realpath Assets)"
 ```
 
 The rigid loader requires positive mass before initialization, without a
