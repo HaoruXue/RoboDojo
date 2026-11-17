@@ -1,0 +1,31 @@
+# YAM arm (i2rt linear_4310 gripper) for RoboDojo. yam.urdf / yam.usd / assets/
+# are generated next to this file by scripts/robodojo_yam_assets.py.
+urdf_path: "./yam.urdf"
+ee_joints: "joint6"
+# MuJoCo grasp_site of the training model; used for ee_pose observations and
+# RoboDojo's return-to-origin checks.
+ee_link: "grasp"
+ee_type: "gripper"
+base_link: "base"
+arm_joints_name: ['joint1', 'joint2', 'joint3', 'joint4', 'joint5', 'joint6']
+gripper_joints_name: ['joint7', 'joint8']
+save_gripper_joints_name: ['joint1', 'joint2', 'joint3', 'joint4', 'joint5', 'joint6', 'joint7', 'joint8']
+# Commanded gripper value v in [0, 1] (1 = open) maps to joint7 = v * 0.04695;
+# joint8 mirrors joint7.
+gripper_move:
+    base: "joint7"
+    sign: 1.0
+    mimic: ["joint8", 1., 0.]
+gripper_bias: 0.1344
+gripper_scale: [0.0, 0.04695]
+camera:
+  -
+    link: "wrist_camera"
+    name: "cam_wrist"
+    type: yam_wrist
+    mesh: pinhole
+    # ZED X One GS wide: fully open finger fit to the November 15 wrist reference.
+    # Offset is in the wrist_camera frame, in meters. Rotation is Rz(-0.3) Rx(18)
+    # degrees, quaternion wxyz. Shared by both wrists and policy/preview RGB.
+    pos: [0.0, 0.0224, -0.0113]
+    ori: [0.98768495584249, 0.15643392894807712, -0.0004095440039534331, -0.00258575907528707]

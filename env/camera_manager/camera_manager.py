@@ -28,6 +28,9 @@ REAL_MAP = {
     "third_view": THIRD_VIEW,
     "d435": D435,
     "large_d435": LARGE_D435,
+    "yam_top": YAM_TOP,
+    "yam_wrist": YAM_WRIST,
+    "yam_top_zoom125": YAM_TOP_ZOOM125,
 }
 
 VISUAL_MAP = {
@@ -228,6 +231,11 @@ class CameraManager:
                 args_info = REAL_MAP.get(camera_config.camera.type, None)
                 if args_info is None:
                     raise ValueError(f"Camera type {camera_config.camera.type} not found in template map.")
+                args_info = dict(args_info)
+                if "resolution" in camera_config.camera:
+                    width, height = camera_config.camera.resolution
+                    args_info["resolution"] = (width, height)
+                    args_info["horizontal_aperture"] = args_info["vertical_aperture"] * width / height
 
                 if camera_config.camera.mesh == "kinect":
                     visual_args_info = VISUAL_MAP.get("kinect", None)

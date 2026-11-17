@@ -50,6 +50,12 @@ class FluidObject:
         self.instance_config = inst_config
 
         self.physics_cfg = self.instance_config.get("physics", {})
+        particle_mass_config = self.physics_cfg["particle_mass"]
+        if isinstance(particle_mass_config, (bool, np.bool_)):
+            raise TypeError("physics.particle_mass must be a finite positive number in kg")
+        particle_mass = float(particle_mass_config)
+        if not np.isfinite(particle_mass) or particle_mass <= 0.0:
+            raise ValueError("physics.particle_mass must be finite and positive in kg")
 
         self.env_origin = env_origin.detach().cpu().numpy()
 
@@ -142,7 +148,7 @@ class FluidObject:
             self_collision=True,
             fluid=True,
             particle_group=0,
-            particle_mass=0.0005,
+            particle_mass=particle_mass,
             density=0.0,
         )
 

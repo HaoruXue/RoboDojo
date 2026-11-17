@@ -41,7 +41,7 @@ class ObsManager:
         self.capture_render_passes = int(self.obs_config.get("capture_render_passes", 1))
         self.capture_render_max_passes = int(self.obs_config.get("capture_render_max_passes", 16))
         if self.collect_freq > 0:
-            self.collect_interval = 1.0 / (self.dt * self.collect_freq)
+            self.collect_interval = round(1.0 / (self.dt * self.collect_freq))
         else:
             self.collect_interval = 0.0
         if not self.collect_interval.is_integer():

@@ -1,0 +1,2908 @@
+{
+  "Articulation/SpringButton/00002": {
+    "disposition": "defer_nonrigid"
+  },
+  "Articulation/SpringButton/00003": {
+    "disposition": "defer_nonrigid"
+  },
+  "Articulation/egg_holder/00000": {
+    "disposition": "defer_nonrigid"
+  },
+  "Articulation/laptop/00000": {
+    "disposition": "defer_nonrigid"
+  },
+  "Articulation/laptop/00001": {
+    "disposition": "defer_nonrigid"
+  },
+  "Articulation/laptop/00002": {
+    "disposition": "defer_nonrigid"
+  },
+  "Articulation/laptop/00003": {
+    "disposition": "defer_nonrigid"
+  },
+  "Articulation/toaster/00000": {
+    "disposition": "defer_nonrigid"
+  },
+  "Articulation/toaster/00001": {
+    "disposition": "defer_nonrigid"
+  },
+  "Articulation/toaster/00002": {
+    "disposition": "defer_nonrigid"
+  },
+  "Articulation/toaster/00004": {
+    "disposition": "defer_nonrigid"
+  },
+  "Clutter/audio/00000": {
+    "base_mass_kg": 0.421574,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/audio/00001": {
+    "base_mass_kg": 0.510478,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/audio/00002": {
+    "base_mass_kg": 0.0276508,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/bag/00000": {
+    "base_mass_kg": 0.337585,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/balance/00000": {
+    "base_mass_kg": 2.1,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/ball/00000": {
+    "base_mass_kg": 0.0310754,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/ball/00001": {
+    "base_mass_kg": 0.0317478,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/baseball_bat/00000": {
+    "base_mass_kg": 0.00661897,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/body_lotion/00000": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/book/00000": {
+    "base_mass_kg": 1.00528,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/book/00001": {
+    "base_mass_kg": 0.559578,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/book/00002": {
+    "base_mass_kg": 0.506407,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/book/00003": {
+    "base_mass_kg": 0.457737,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/book/00004": {
+    "base_mass_kg": 0.0948256,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/book_shelf/00000": {
+    "base_mass_kg": 0.11353,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/bottle/00000": {
+    "base_mass_kg": 0.19,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/bowl/00000": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/bowl/00001": {
+    "base_mass_kg": 0.32,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/box/00000": {
+    "base_mass_kg": 0.2,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/box/00001": {
+    "base_mass_kg": 0.143459,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/box/00002": {
+    "base_mass_kg": 0.0995319,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/box/00003": {
+    "base_mass_kg": 0.0835845,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/box/00004": {
+    "base_mass_kg": 0.0940335,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/bridge/00000": {
+    "base_mass_kg": 0.102489,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/cake/00000": {
+    "base_mass_kg": 0.105618,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/cake/00001": {
+    "base_mass_kg": 0.221886,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/cake/00002": {
+    "base_mass_kg": 0.267854,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/calculator/00000": {
+    "base_mass_kg": 0.492159,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/calculator/00001": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/calendar/00000": {
+    "base_mass_kg": 0.169222,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/can/00000": {
+    "base_mass_kg": 0.32,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/candle/00000": {
+    "base_mass_kg": 0.819575,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/cap/00000": {
+    "base_mass_kg": 0.077602,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/cap/00001": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/card/00000": {
+    "base_mass_kg": 0.0327918,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/card/00001": {
+    "base_mass_kg": 0.0634195,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/cereal/00000": {
+    "base_mass_kg": 0.568137,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/chinese_pavillion/00000": {
+    "base_mass_kg": 1.53297,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/chocolate/00000": {
+    "base_mass_kg": 0.091464,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/clip/00000": {
+    "base_mass_kg": 0.0334343,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/coffee_bag/00000": {
+    "base_mass_kg": 0.511579,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/coin/00000": {
+    "base_mass_kg": 0.258504,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/coin/00001": {
+    "base_mass_kg": 0.0395054,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/comb/00000": {
+    "base_mass_kg": 0.0385007,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/croissant/00000": {
+    "base_mass_kg": 0.385385,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/cup/00000": {
+    "base_mass_kg": 0.21,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/cup/00001": {
+    "base_mass_kg": 0.620982,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/cup/00002": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/cup/00003": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/cutter/00000": {
+    "base_mass_kg": 0.216332,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/darts_board/00000": {
+    "base_mass_kg": 0.0633287,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/dice/00000": {
+    "base_mass_kg": 0.0165888,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/dog_toy/00000": {
+    "base_mass_kg": 0.462448,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/earbuds/00000": {
+    "base_mass_kg": 0.0540696,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/earth_globe/00000": {
+    "base_mass_kg": 1.37437,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/eraser/00000": {
+    "base_mass_kg": 0.0150009,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/foosball_table/00000": {
+    "base_mass_kg": 0.982227,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/french_fries/00000": {
+    "base_mass_kg": 0.237208,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/game_machine/00000": {
+    "base_mass_kg": 0.37155,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/gamepad/00000": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00000": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00001": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00002": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00003": {
+    "base_mass_kg": 0.291932,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00004": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00005": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00006": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00007": {
+    "base_mass_kg": 0.613041,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00008": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00009": {
+    "base_mass_kg": 0.015,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00010": {
+    "base_mass_kg": 0.06,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00011": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00012": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00013": {
+    "base_mass_kg": 0.04,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00014": {
+    "base_mass_kg": 0.601324,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00015": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00016": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/garage/00017": {
+    "base_mass_kg": 0.012,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/glasses/00000": {
+    "base_mass_kg": 0.02,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/glasses/00001": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/graphics_card/00000": {
+    "base_mass_kg": 1.25802,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/graphics_card/00001": {
+    "base_mass_kg": 0.441625,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/hammer/00000": {
+    "base_mass_kg": 0.316661,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/headphones/00000": {
+    "base_mass_kg": 0.34513,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/helmets/00000": {
+    "base_mass_kg": 0.174379,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/helmets/00001": {
+    "base_mass_kg": 0.233786,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/house/00000": {
+    "base_mass_kg": 1.8,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/house/00001": {
+    "base_mass_kg": 0.199863,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/house/00002": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/ice_cream/00000": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/ice_cream/00001": {
+    "base_mass_kg": 0.0537524,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/iron/00000": {
+    "base_mass_kg": 1.3,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/jeans/00000": {
+    "base_mass_kg": 0.390863,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/kettle/00000": {
+    "base_mass_kg": 1.1,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/kettle/00001": {
+    "base_mass_kg": 1.1,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/key/00000": {
+    "base_mass_kg": 0.012,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/keyboard/00000": {
+    "base_mass_kg": 0.591749,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/keyboard/00001": {
+    "base_mass_kg": 0.413579,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/lamp/00000": {
+    "base_mass_kg": 1.1,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/magic_potion/00000": {
+    "base_mass_kg": 0.32,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/mask/00000": {
+    "base_mass_kg": 0.204298,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/meta_quest/00000": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/microscope/00000": {
+    "base_mass_kg": 0.85,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00000": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00001": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00002": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00003": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00004": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00005": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00006": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00007": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00008": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00009": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00010": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00011": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00012": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00013": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00014": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/minecraft_blocks/00015": {
+    "base_mass_kg": 0.1792,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/mini_fan/00000": {
+    "base_mass_kg": 0.323102,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/mini_fan/00001": {
+    "base_mass_kg": 0.498062,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/mini_fan/00002": {
+    "base_mass_kg": 0.161311,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/money_stack/00000": {
+    "base_mass_kg": 0.489156,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/monitor/00000": {
+    "base_mass_kg": 0.247172,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/notes_holder/00000": {
+    "base_mass_kg": 0.061919,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/nvlink/00000": {
+    "base_mass_kg": 0.267403,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/office_mail/00000": {
+    "base_mass_kg": 0.0492179,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/office_mail/00001": {
+    "base_mass_kg": 0.736434,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/oscilloscope/00000": {
+    "base_mass_kg": 2.24382,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/palette/00000": {
+    "base_mass_kg": 0.400914,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/pen/00000": {
+    "base_mass_kg": 0.018,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/pen/00001": {
+    "base_mass_kg": 0.008,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/pen/00002": {
+    "base_mass_kg": 0.018,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/pencil_case/00000": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/phone_stand/00000": {
+    "base_mass_kg": 0.109987,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/phone_stand/00001": {
+    "base_mass_kg": 0.174675,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/piano/00000": {
+    "base_mass_kg": 0.386061,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/plane/00000": {
+    "base_mass_kg": 0.0613599,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/plant/00000": {
+    "base_mass_kg": 0.579422,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/plant/00001": {
+    "base_mass_kg": 0.527756,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/plate/00000": {
+    "base_mass_kg": 0.65,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/plate/00001": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/plier/00000": {
+    "base_mass_kg": 0.357965,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/pokeball/00000": {
+    "base_mass_kg": 0.0512238,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/pokeball/00001": {
+    "base_mass_kg": 0.0533203,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/pokeball/00002": {
+    "base_mass_kg": 0.0535863,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/pokeball/00003": {
+    "base_mass_kg": 0.056168,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/pokeball/00004": {
+    "base_mass_kg": 0.0512238,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/pokeball/00005": {
+    "base_mass_kg": 0.0512238,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/pokeball/00006": {
+    "base_mass_kg": 0.0512238,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/pokeball/00007": {
+    "base_mass_kg": 0.0512238,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/pokeball/00008": {
+    "base_mass_kg": 0.0517084,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/power_bank/00000": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/puzzle_pieces/00000": {
+    "base_mass_kg": 0.0787975,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/racket/00000": {
+    "base_mass_kg": 0.0148571,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/racket/00001": {
+    "base_mass_kg": 0.0631771,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/racket/00002": {
+    "base_mass_kg": 0.140869,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/racket/00003": {
+    "base_mass_kg": 0.0301465,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/racket/00004": {
+    "base_mass_kg": 0.0197127,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/sandwich/00000": {
+    "base_mass_kg": 0.433668,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/scale/00000": {
+    "base_mass_kg": 0.898921,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/scale/00001": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/screwdriver/00000": {
+    "base_mass_kg": 0.06,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/sculpture/00000": {
+    "base_mass_kg": 0.311676,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/sculpture/00001": {
+    "base_mass_kg": 0.427689,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/sculpture/00002": {
+    "base_mass_kg": 0.392051,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/shampoo/00000": {
+    "base_mass_kg": 0.19,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/sound_card/00000": {
+    "base_mass_kg": 0.237257,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/stapler/00000": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/stapler/00001": {
+    "base_mass_kg": 0.06,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/stapler/00002": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/stapler/00003": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/stapler/00004": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/tape_measure/00000": {
+    "base_mass_kg": 0.119265,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/tissue/00000": {
+    "base_mass_kg": 0.0706651,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/tissue/00001": {
+    "base_mass_kg": 0.112197,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/tissue/00002": {
+    "base_mass_kg": 0.0325733,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/tissue/00003": {
+    "base_mass_kg": 0.0908881,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/toothpaste/00000": {
+    "base_mass_kg": 0.0501015,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/toothpaste/00001": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/toy/00000": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/toy/00001": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/toy/00002": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/toy_car/00000": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/toy_car/00001": {
+    "base_mass_kg": 0.109099,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/toy_plane/00000": {
+    "base_mass_kg": 0.224501,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/toy_plane/00001": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/toy_plane/00002": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/trophy/00000": {
+    "base_mass_kg": 0.85,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/trophy/00001": {
+    "base_mass_kg": 0.982924,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/vehicle/00000": {
+    "base_mass_kg": 1.34538,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/walkie_talkie/00000": {
+    "base_mass_kg": 0.138111,
+    "disposition": "apply_rigid"
+  },
+  "Clutter/wrench/00000": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Dynamic/conveyor/00000": {
+    "disposition": "defer_nonrigid"
+  },
+  "Dynamic/conveyor/00001": {
+    "disposition": "defer_nonrigid"
+  },
+  "Fluid/wuliangye/00000": {
+    "disposition": "defer_nonrigid"
+  },
+  "Fluid/wuliangye/00001": {
+    "disposition": "defer_nonrigid"
+  },
+  "Fluid/wuliangye/00002": {
+    "disposition": "defer_nonrigid"
+  },
+  "Fluid/wuliangye/00003": {
+    "disposition": "defer_nonrigid"
+  },
+  "Garment/Top_Long/00001": {
+    "disposition": "defer_nonrigid"
+  },
+  "Garment/Top_Long/00004": {
+    "disposition": "defer_nonrigid"
+  },
+  "Garment/Top_Long/00006": {
+    "disposition": "defer_nonrigid"
+  },
+  "Garment/Top_Long/00007": {
+    "disposition": "defer_nonrigid"
+  },
+  "Garment/Top_Long/00009": {
+    "disposition": "defer_nonrigid"
+  },
+  "Garment/Top_Long/00011": {
+    "disposition": "defer_nonrigid"
+  },
+  "Geometry/basket/00002": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/basket/00003": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/basket/00004": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/basket/00005": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/bread_shelf/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/camera_stand/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/checkerboard/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/cube_cushion/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/cube_cushion/00001": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/cube_cushion/00002": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/cup_holder/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/cup_holder/00001": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/drawer/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/dustbin/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/egg_basket/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/factory_bolt/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/factory_bolt/00001": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/factory_bolt/00002": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/factory_bolt/00003": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/factory_bolt/00004": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/frame/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/headset_stand/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/key_slot/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/laptop_stand/00001": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/monitor/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/monitor/00001": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/monitor/00002": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/mousemat/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/number_card/00001": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/number_card/00002": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/number_card/00003": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/number_card/00004": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/number_card/00005": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/number_card/00006": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/number_card/00007": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/number_card/00008": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/number_card/00009": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00001": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00002": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00003": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00004": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00005": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00006": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00007": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00008": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00009": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00010": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00011": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00012": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00013": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00014": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00015": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/photo/00016": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/piggy_bank/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/stack_base/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/t_cushion/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/test_tube_slot/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/toolbox/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/vase/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/vase/00001": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/vase/00002": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/vase/00003": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/vase/00004": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/vertical_coin_stand/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/vertical_laptop_storage_rack/00000": {
+    "disposition": "preserve_static"
+  },
+  "Geometry/xylophone/00000": {
+    "disposition": "preserve_static"
+  },
+  "Rigid/action_camera/00000": {
+    "base_mass_kg": 0.085,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/action_camera/00001": {
+    "base_mass_kg": 0.0538978,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/action_camera/00002": {
+    "base_mass_kg": 0.06,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/alarm/00000": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/b/00000": {
+    "base_mass_kg": 0.0162483,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bag/00000": {
+    "base_mass_kg": 0.85,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/basket_grasp/00002": {
+    "base_mass_kg": 0.2,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bell/00000": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bicycle/00000": {
+    "base_mass_kg": 0.413012,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/binoculars/00000": {
+    "base_mass_kg": 0.55,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00000": {
+    "base_mass_kg": 0.2,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00001": {
+    "base_mass_kg": 0.039744,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00002": {
+    "base_mass_kg": 0.0519368,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00003": {
+    "base_mass_kg": 0.0609915,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00004": {
+    "base_mass_kg": 0.2,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00005": {
+    "base_mass_kg": 0.015743440233236143,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00006": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00007": {
+    "base_mass_kg": 0.03731778425655976,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00008": {
+    "base_mass_kg": 0.015743440233236143,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00009": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00010": {
+    "base_mass_kg": 0.03731778425655976,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00011": {
+    "base_mass_kg": 0.015743440233236143,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00012": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00013": {
+    "base_mass_kg": 0.03731778425655976,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00014": {
+    "base_mass_kg": 0.015743440233236143,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00015": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00016": {
+    "base_mass_kg": 0.03731778425655976,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00017": {
+    "base_mass_kg": 0.015743440233236143,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00018": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00019": {
+    "base_mass_kg": 0.03731778425655976,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00020": {
+    "base_mass_kg": 0.015743440233236143,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00021": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00022": {
+    "base_mass_kg": 0.03731778425655976,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00023": {
+    "base_mass_kg": 0.015743440233236143,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00024": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00025": {
+    "base_mass_kg": 0.03731778425655976,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00026": {
+    "base_mass_kg": 0.015743440233236143,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00027": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/block/00028": {
+    "base_mass_kg": 0.03731778425655976,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bottle/00000": {
+    "base_mass_kg": 0.19,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bottle/00002": {
+    "base_mass_kg": 0.19,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bottle/00005": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bottle/00022": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bottle/00025": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bottle/00041": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bottle/00047": {
+    "base_mass_kg": 0.13752,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bottle/00050": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bottle/00055": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bottle/00059": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bottle/00060": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bottle/00061": {
+    "base_mass_kg": 0.32,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bottle_opener/00000": {
+    "base_mass_kg": 0.0256936,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bowl/00001": {
+    "base_mass_kg": 0.32,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bowl/00002": {
+    "base_mass_kg": 0.32,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bowl/00003": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bowl/00005": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bowl/00007": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bowl/00008": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bowl/00009": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bowl/00010": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bowl/00011": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bowl/00012": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bowl/00013": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bowl/00014": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bowl/00015": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/box/00000": {
+    "base_mass_kg": 0.2,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bread/00000": {
+    "base_mass_kg": 0.07,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/bread/00001": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/brick/00000": {
+    "base_mass_kg": 0.0149663,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/brick/00001": {
+    "base_mass_kg": 0.015,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/brick/00002": {
+    "base_mass_kg": 0.015,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/broom/00000": {
+    "base_mass_kg": 0.04,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/broom_shovel/00000": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cactus/00000": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/camera/00002": {
+    "base_mass_kg": 0.915635,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/can/00000": {
+    "base_mass_kg": 0.32,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00000": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00001": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00002": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00003": {
+    "base_mass_kg": 0.203396,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00004": {
+    "base_mass_kg": 0.131821,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00005": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00006": {
+    "base_mass_kg": 0.0801822,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00007": {
+    "base_mass_kg": 0.174592,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00008": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00009": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00010": {
+    "base_mass_kg": 0.0599011,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00011": {
+    "base_mass_kg": 0.102228,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00012": {
+    "base_mass_kg": 0.0725493,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00013": {
+    "base_mass_kg": 0.054338,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00014": {
+    "base_mass_kg": 0.052066,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/car/00015": {
+    "base_mass_kg": 0.0367466,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cassette/00000": {
+    "base_mass_kg": 0.02,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/charger/00000": {
+    "base_mass_kg": 0.03,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/chessman/00000": {
+    "base_mass_kg": 0.1,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/chessman/00001": {
+    "base_mass_kg": 0.1,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/chick/00000": {
+    "base_mass_kg": 0.04,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/chocolate_bag/00000": {
+    "base_mass_kg": 0.035,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/chocolate_bar/00000": {
+    "base_mass_kg": 0.0398317,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/chocolate_bar/00001": {
+    "base_mass_kg": 0.0365667,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/chocolate_bar/00002": {
+    "base_mass_kg": 0.0355475,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/chocolate_bar/00003": {
+    "base_mass_kg": 0.0221303,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/chocolate_bar/00004": {
+    "base_mass_kg": 0.0197438,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/clock/00000": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/coin/00000": {
+    "base_mass_kg": 0.005,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/corkscrew/00000": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/correction_tape/00000": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cube/00000": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cube/00001": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cube/00002": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cube/00003": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cube/00004": {
+    "base_mass_kg": 0.009110787172011662,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cube/00005": {
+    "base_mass_kg": 0.009110787172011662,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cube/00006": {
+    "base_mass_kg": 0.009110787172011662,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cube/00007": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cube/00008": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cube/00009": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cup/00001": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cup/00006": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/cup/00007": {
+    "base_mass_kg": 0.13825,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/d/00000": {
+    "base_mass_kg": 0.0166369,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/division/00000": {
+    "base_mass_kg": 0.01458,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/donut/00000": {
+    "base_mass_kg": 0.06,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/drawing_compass/00000": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/earbuds/00000": {
+    "base_mass_kg": 0.012,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/earbuds/00001": {
+    "base_mass_kg": 0.006,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/earbuds/00002": {
+    "base_mass_kg": 0.005,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/egg/00000": {
+    "base_mass_kg": 0.0525681,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/electric_toothbrush/00000": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/electric_toothbrush/00001": {
+    "base_mass_kg": 0.0591219,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/electric_toothbrush/00002": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/electric_toothbrush/00003": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/electric_toothbrush/00004": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/electric_toothbrush/00005": {
+    "base_mass_kg": 0.06,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/electric_toothbrush/00006": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/equal/00000": {
+    "base_mass_kg": 0.008,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/factory_nut/00000": {
+    "base_mass_kg": 0.03,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/factory_nut/00001": {
+    "base_mass_kg": 0.03,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/factory_nut/00002": {
+    "base_mass_kg": 0.03,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/factory_nut/00003": {
+    "base_mass_kg": 0.03,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/factory_nut/00004": {
+    "base_mass_kg": 0.03,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/figurine/00000": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/frame/00000": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/game_machine/00000": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/garage/00005": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/garage/00006": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/garage/00007": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/garage/00008": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/garage/00011": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/garage/00014": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/garage/00015": {
+    "base_mass_kg": 0.04,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/garage/00016": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/garage/00017": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/glasses/00000": {
+    "base_mass_kg": 0.02,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/glue/00000": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/glue_gun/00000": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/goblet/00006": {
+    "base_mass_kg": 0.5,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/grapes/00000": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/hammer/00000": {
+    "base_mass_kg": 0.189159,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/hammer/00001": {
+    "base_mass_kg": 0.308987,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/hammer/00002": {
+    "base_mass_kg": 0.314332,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/hammer/00003": {
+    "base_mass_kg": 0.174661,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/hammer/00004": {
+    "base_mass_kg": 0.22862,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/hammer/00005": {
+    "base_mass_kg": 0.623644,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/hammer/00006": {
+    "base_mass_kg": 0.23214,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/hammer/00007": {
+    "base_mass_kg": 0.232224,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/hammer/00008": {
+    "base_mass_kg": 0.143684,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/handled_paint/00000": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/headphone/00000": {
+    "base_mass_kg": 0.28,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/headset/00002": {
+    "base_mass_kg": 0.32,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/headset/00003": {
+    "base_mass_kg": 0.28,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/headset/00004": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/headset/00005": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/headset/00006": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/headset/00007": {
+    "base_mass_kg": 0.32,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/headset/00008": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/headset/00009": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/headset/00010": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/helicopter/00000": {
+    "base_mass_kg": 0.85,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/hoe/00000": {
+    "base_mass_kg": 0.75,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/ice_cream/00000": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/j/00000": {
+    "base_mass_kg": 0.0128548,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/jewelry_box/00000": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/juice_carton/00000": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/key/00000": {
+    "base_mass_kg": 0.0114182,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/keyboard/00000": {
+    "base_mass_kg": 0.51856,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/keyboard/00001": {
+    "base_mass_kg": 0.463882,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/keyboard/00002": {
+    "base_mass_kg": 0.290764,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/kiwi/00000": {
+    "base_mass_kg": 0.03,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/lighter/00000": {
+    "base_mass_kg": 0.02,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00000": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00001": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00002": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00003": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00004": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00005": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00006": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00007": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00008": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00009": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00010": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00011": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00012": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00013": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00014": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00015": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00016": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00017": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00018": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00019": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00020": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00021": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00022": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00023": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00024": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00025": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00026": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00027": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00028": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00029": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00030": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00031": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00032": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00033": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00034": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00035": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00036": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00037": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00038": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00039": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00040": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mahjong/00041": {
+    "base_mass_kg": 0.128642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mallet/00000": {
+    "base_mass_kg": 0.02,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mallet_stand/00000": {
+    "base_mass_kg": 0.04,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00000": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00001": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00002": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00003": {
+    "base_mass_kg": 0.013126,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00004": {
+    "base_mass_kg": 0.004759,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00005": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00006": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00007": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00008": {
+    "base_mass_kg": 0.0129921,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00009": {
+    "base_mass_kg": 0.00471045,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00010": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00011": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00012": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00013": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00014": {
+    "base_mass_kg": 0.00881781,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00015": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00016": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00017": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00018": {
+    "base_mass_kg": 0.0172696,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00019": {
+    "base_mass_kg": 0.00681061,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00020": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00021": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00022": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00023": {
+    "base_mass_kg": 0.0231875,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/matryoshka_dolls/00024": {
+    "base_mass_kg": 0.00914447,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/minus/00000": {
+    "base_mass_kg": 0.03,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mouse/00004": {
+    "base_mass_kg": 0.09,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mouse/00006": {
+    "base_mass_kg": 0.09,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mouse/00007": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mouse/00008": {
+    "base_mass_kg": 0.0251189,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mouse/00009": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00000": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00001": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00002": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00003": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00004": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00005": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00006": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00007": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00008": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00009": {
+    "base_mass_kg": 0.0671578,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00010": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00011": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00012": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00013": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00014": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00015": {
+    "base_mass_kg": 0.156333,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00016": {
+    "base_mass_kg": 0.188359,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00017": {
+    "base_mass_kg": 0.5,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00018": {
+    "base_mass_kg": 0.5,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/mug/00019": {
+    "base_mass_kg": 0.140439,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/multiplication/00000": {
+    "base_mass_kg": 0.01458,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/music_player/00000": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/nail_clippers/00000": {
+    "base_mass_kg": 0.16645,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/noodles/00000": {
+    "base_mass_kg": 0.06,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00000": {
+    "base_mass_kg": 0.0156716,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00001": {
+    "base_mass_kg": 0.00815942,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00002": {
+    "base_mass_kg": 0.0133765,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00003": {
+    "base_mass_kg": 0.0135289,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00004": {
+    "base_mass_kg": 0.0161102,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00005": {
+    "base_mass_kg": 0.0130648,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00006": {
+    "base_mass_kg": 0.0154335,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00007": {
+    "base_mass_kg": 0.0138562,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00008": {
+    "base_mass_kg": 0.0154684,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00009": {
+    "base_mass_kg": 0.015092,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00010": {
+    "base_mass_kg": 0.0156716,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00011": {
+    "base_mass_kg": 0.00815942,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00012": {
+    "base_mass_kg": 0.0133765,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00013": {
+    "base_mass_kg": 0.0135289,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00014": {
+    "base_mass_kg": 0.0161102,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00015": {
+    "base_mass_kg": 0.0130648,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00016": {
+    "base_mass_kg": 0.0154335,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00017": {
+    "base_mass_kg": 0.0138562,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00018": {
+    "base_mass_kg": 0.0154684,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00019": {
+    "base_mass_kg": 0.015092,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00020": {
+    "base_mass_kg": 0.0156716,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00021": {
+    "base_mass_kg": 0.00815942,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00022": {
+    "base_mass_kg": 0.0133765,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00023": {
+    "base_mass_kg": 0.0135289,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00024": {
+    "base_mass_kg": 0.0161102,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00025": {
+    "base_mass_kg": 0.0130648,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00026": {
+    "base_mass_kg": 0.0154335,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00027": {
+    "base_mass_kg": 0.0138562,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00028": {
+    "base_mass_kg": 0.0154684,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00029": {
+    "base_mass_kg": 0.015092,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00030": {
+    "base_mass_kg": 0.0156716,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00031": {
+    "base_mass_kg": 0.00815942,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00032": {
+    "base_mass_kg": 0.0133765,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00033": {
+    "base_mass_kg": 0.0135289,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00034": {
+    "base_mass_kg": 0.0161102,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00035": {
+    "base_mass_kg": 0.0130648,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00036": {
+    "base_mass_kg": 0.0154335,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00037": {
+    "base_mass_kg": 0.0138562,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00038": {
+    "base_mass_kg": 0.0154684,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00039": {
+    "base_mass_kg": 0.015092,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00040": {
+    "base_mass_kg": 0.0156716,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00041": {
+    "base_mass_kg": 0.00815942,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00042": {
+    "base_mass_kg": 0.0133765,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00043": {
+    "base_mass_kg": 0.0135289,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00044": {
+    "base_mass_kg": 0.0161102,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00045": {
+    "base_mass_kg": 0.0130648,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00046": {
+    "base_mass_kg": 0.0154335,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00047": {
+    "base_mass_kg": 0.0138562,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00048": {
+    "base_mass_kg": 0.0154684,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/number/00049": {
+    "base_mass_kg": 0.015092,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/o/00000": {
+    "base_mass_kg": 0.0211834,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/oil_pen/00000": {
+    "base_mass_kg": 0.02,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/oil_pen/00001": {
+    "base_mass_kg": 0.015,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/origami_crane/00000": {
+    "base_mass_kg": 0.00692706,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/owl/00000": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/paint_roller/00000": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/paper_ball/00000": {
+    "base_mass_kg": 0.00328013,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/paper_ball/00001": {
+    "base_mass_kg": 0.00110195,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/paper_ball/00002": {
+    "base_mass_kg": 0.00218595,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/peeler/00000": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/pen/00000": {
+    "base_mass_kg": 0.018,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/pen/00001": {
+    "base_mass_kg": 0.008,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/pen/00004": {
+    "base_mass_kg": 0.03,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/pen/00010": {
+    "base_mass_kg": 0.012,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/pen/00011": {
+    "base_mass_kg": 0.025,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/pen_holder/00000": {
+    "base_mass_kg": 0.2,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/pepper/00000": {
+    "base_mass_kg": 0.0907835,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/pepper/00001": {
+    "base_mass_kg": 0.0788914,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/pepper/00002": {
+    "base_mass_kg": 0.0813184,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/phone/00000": {
+    "base_mass_kg": 0.148465,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/piler/00000": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/plane/00000": {
+    "base_mass_kg": 0.179559,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/plate/00002": {
+    "base_mass_kg": 0.209491,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/pliers/00000": {
+    "base_mass_kg": 0.412333,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/plus/00000": {
+    "base_mass_kg": 0.01458,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/pot/00001": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/power_bank/00002": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/prayer_bead/00000": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/puppet/00000": {
+    "base_mass_kg": 0.123191,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/r/00000": {
+    "base_mass_kg": 0.0147512,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/remote/00000": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/remote/00001": {
+    "base_mass_kg": 0.06,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/sachet/00000": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/saw/00000": {
+    "base_mass_kg": 0.0591144,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/scan/00000": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/scissor/00000": {
+    "base_mass_kg": 0.05,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/seashell/00000": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00000": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00001": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00002": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00003": {
+    "base_mass_kg": 0.15876,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00004": {
+    "base_mass_kg": 0.2,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00005": {
+    "base_mass_kg": 0.2,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00006": {
+    "base_mass_kg": 0.32,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00007": {
+    "base_mass_kg": 0.32,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00008": {
+    "base_mass_kg": 0.171461,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00009": {
+    "base_mass_kg": 0.160241,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00010": {
+    "base_mass_kg": 0.113393,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00011": {
+    "base_mass_kg": 0.113393,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00012": {
+    "base_mass_kg": 0.157878,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00013": {
+    "base_mass_kg": 0.157878,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00014": {
+    "base_mass_kg": 0.32,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00015": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00016": {
+    "base_mass_kg": 0.32,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shoe/00017": {
+    "base_mass_kg": 0.32,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shovel/00000": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shovel/00001": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/shovel/00002": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/sickle/00000": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/small_cube/00000": {
+    "base_mass_kg": 0.00642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/small_cube/00001": {
+    "base_mass_kg": 0.00642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/small_cube/00002": {
+    "base_mass_kg": 0.00642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/small_cube/00003": {
+    "base_mass_kg": 0.00642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/small_cube/00004": {
+    "base_mass_kg": 0.00642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/small_cube/00005": {
+    "base_mass_kg": 0.00642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/small_cube/00006": {
+    "base_mass_kg": 0.00642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/small_cube/00007": {
+    "base_mass_kg": 0.00642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/small_cube/00008": {
+    "base_mass_kg": 0.00642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/small_cube/00009": {
+    "base_mass_kg": 0.00642,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/socket/00000": {
+    "base_mass_kg": 0.0831623,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/speaker/00000": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/sphere/00000": {
+    "base_mass_kg": 0.00408407,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/stackingblocks/00000": {
+    "base_mass_kg": 0.0169965,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/stackingblocks/00001": {
+    "base_mass_kg": 0.0171717,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/stackingblocks/00002": {
+    "base_mass_kg": 0.00858283,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/stackingblocks/00003": {
+    "base_mass_kg": 0.0158758,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/stapler/00000": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/t/00000": {
+    "base_mass_kg": 0.036,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/t/00001": {
+    "base_mass_kg": 0.036,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/tape_dispense/00000": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/tape_measure/00000": {
+    "base_mass_kg": 0.0517831,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/tape_roll/00000": {
+    "base_mass_kg": 0.0326734,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/teddy_bear/00000": {
+    "base_mass_kg": 0.0687797,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/test_tube/00002": {
+    "base_mass_kg": 0.06,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/thread/00000": {
+    "base_mass_kg": 0.280369,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/tiara/00000": {
+    "base_mass_kg": 0.035,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/toy/00000": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/toy/00001": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/toy/00002": {
+    "base_mass_kg": 0.04,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/toy_car/00000": {
+    "base_mass_kg": 0.0439367,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/toy_car/00001": {
+    "base_mass_kg": 0.045,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/toy_car/00002": {
+    "base_mass_kg": 0.0431499,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/toy_car/00003": {
+    "base_mass_kg": 0.0580115,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/toy_car/00004": {
+    "base_mass_kg": 0.02496,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/triangular_prism/00000": {
+    "base_mass_kg": 0.06,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/trophy/00000": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/usb_multip/00000": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/waffle/00000": {
+    "base_mass_kg": 0.08,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/watch/00000": {
+    "base_mass_kg": 0.035,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/watch/00001": {
+    "base_mass_kg": 0.045,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/watch/00002": {
+    "base_mass_kg": 0.045,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/watch/00003": {
+    "base_mass_kg": 0.035,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/watch/00004": {
+    "base_mass_kg": 0.035,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/watch/00005": {
+    "base_mass_kg": 0.035,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/watch/00006": {
+    "base_mass_kg": 0.06,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/watch/00007": {
+    "base_mass_kg": 0.035,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/watering_can/00000": {
+    "base_mass_kg": 0.45,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/whisk/00000": {
+    "base_mass_kg": 0.07,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wine_bottle/00000": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wine_bottle/00001": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wine_bottle/00002": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wine_bowl/00000": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wine_bowl/00001": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wine_bowl/00002": {
+    "base_mass_kg": 0.25,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wooden_toy/00000": {
+    "base_mass_kg": 0.0576141,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wooden_toy/00001": {
+    "base_mass_kg": 0.06,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wooden_toy/00002": {
+    "base_mass_kg": 0.0326615,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wooden_toy/00003": {
+    "base_mass_kg": 0.06,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wooden_toy/00004": {
+    "base_mass_kg": 0.06,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wrench/00000": {
+    "base_mass_kg": 0.35,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wrench/00001": {
+    "base_mass_kg": 0.0513016,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wrench/00002": {
+    "base_mass_kg": 0.22,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wuliangye/00000": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wuliangye/00001": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wuliangye/00002": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/wuliangye/00003": {
+    "base_mass_kg": 0.15,
+    "disposition": "apply_rigid"
+  },
+  "Rigid/yogurt/00001": {
+    "base_mass_kg": 0.12,
+    "disposition": "apply_rigid"
+  }
+}

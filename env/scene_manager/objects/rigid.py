@@ -1,3 +1,4 @@
+from numbers import Real
 import random
 
 from isaacsim.core.api.materials.physics_material import PhysicsMaterial
@@ -9,10 +10,36 @@ from isaacsim.core.utils.string import find_unique_string_name
 import numpy as np
 from omegaconf import DictConfig
 import omni.usd
-from pxr import Gf, Sdf, Usd, UsdGeom
+from pxr import Gf, PhysxSchema, Sdf, Usd, UsdGeom, UsdPhysics
 import torch
 
 from env.scene_manager.layout_manager import LayoutManager
+
+
+def _configured_mass(inst_config):
+    mass = inst_config["physics"]["mass"]
+    if isinstance(mass, (bool, np.bool_)) or not isinstance(mass, Real) or not np.isfinite(mass) or mass <= 0:
+        raise ValueError(f"RigidObject requires an explicit finite positive mass in kg, got {mass!r}")
+    return float(mass)
+
+
+def _normalize_rigid_body_subtree(root):
+    """Keep one wrapper body while retaining child colliders and mass properties."""
+    children = [
+        prim
+        for prim in Usd.PrimRange(root, Usd.TraverseInstanceProxies(Usd.PrimAllPrimsPredicate))
+        if prim != root and prim.HasAPI(UsdPhysics.RigidBodyAPI)
+    ]
+    for prim in children:
+        if prim.IsInstanceProxy():
+            raise RuntimeError(f"Cannot normalize an instanced descendant rigid body: {prim.GetPath()}")
+    for prim in children:
+        if not prim.RemoveAPI(UsdPhysics.RigidBodyAPI) or prim.HasAPI(UsdPhysics.RigidBodyAPI):
+            raise RuntimeError(f"Could not remove descendant rigid body: {prim.GetPath()}")
+        if prim.HasAPI(PhysxSchema.PhysxRigidBodyAPI):
+            if not prim.RemoveAPI(PhysxSchema.PhysxRigidBodyAPI) or prim.HasAPI(PhysxSchema.PhysxRigidBodyAPI):
+                raise RuntimeError(f"Could not remove descendant PhysX body: {prim.GetPath()}")
+    return [str(prim.GetPath()) for prim in children]
 
 
 class RigidObject(SingleRigidPrim, SingleGeometryPrim):
@@ -30,6 +57,7 @@ class RigidObject(SingleRigidPrim, SingleGeometryPrim):
         default_ori: tuple,
         scale: tuple,
     ):
+        mass = _configured_mass(inst_config)
         if usd_path:
             prim = add_reference_to_stage(usd_path=usd_path, prim_path=prim_path)
         else:
@@ -44,6 +72,7 @@ class RigidObject(SingleRigidPrim, SingleGeometryPrim):
 
         """Initialize a rigid body object with geometry and physics properties."""
         self.stage = prim.GetStage()
+        self._normalized_descendant_rigid_bodies = _normalize_rigid_body_subtree(prim)
         self._prim_path = prim_path
         prim_path_parts = prim_path.split("/")
         self.category_name = prim_path_parts[-2]
@@ -62,7 +91,7 @@ class RigidObject(SingleRigidPrim, SingleGeometryPrim):
         self.default_pos = default_pos
         self.default_ori = default_ori
         self.scale = scale
-        self.mass = min(self.physics_config.get("mass", 0.5), 0.5)
+        self.mass = mass
         self.visible = self.visual_config.get("visible", True)
 
         self.physics_material_path = find_unique_string_name(
@@ -93,6 +122,7 @@ class RigidObject(SingleRigidPrim, SingleGeometryPrim):
             translation=self.default_pos,
             orientation=self.default_ori,
             scale=self.scale,
+            mass=self.mass,
         )
         self._default_linear_velocity = [0.0, 0.0, 0.0]
         self._default_angular_velocity = [0.0, 0.0, 0.0]
@@ -202,10 +232,7 @@ class RigidObject(SingleRigidPrim, SingleGeometryPrim):
             print(f"Warning: Failed to hide prim {prim_path}: {e}")
 
     def _setup_physics(self):
-        """Configure physics properties (rigid type, mass) from instance config."""
-        if self.mass <= 0:
-            self.mass = 0.05
-        self.set_mass(self.mass)
+        """Configure the initial velocities and physics material."""
 
         if self._default_linear_velocity is not None or self._default_angular_velocity is not None:
             self.set_default_state(

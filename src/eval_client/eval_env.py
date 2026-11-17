@@ -557,6 +557,17 @@ def create_eval_env(config, app, resume_state=None, **kwargs):
                         for i in range(interp_count, interpolation_nums):
                             control_info_list[i][key_name]["position"] = vals
 
+                if robot.type == "target" and robot.hold_targets:
+                    names = [robot.arm_name]
+                    if robot.ee_type == "gripper":
+                        names.append(robot.gripper_name)
+                    for name in names:
+                        key = self.robot_manager.process_name(name)
+                        if key in control_info:
+                            target = control_info_list[-1][key]["position"]
+                            for substep in control_info_list:
+                                substep[key]["position"] = list(target)
+
             return control_info_list
 
         def validate_action_dict(self, action_dict: dict) -> None:
