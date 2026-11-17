@@ -53,6 +53,7 @@ check_download_tools() {
 clone_asset_repo() {
   info "Cloning sparse asset repo into '${ASSET_CACHE_DIR}'..."
   GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 --sparse "${HF_REPO_URL}" "${ASSET_CACHE_DIR}"
+  git -C "${ASSET_CACHE_DIR}" fetch --depth 1 origin "${HF_REVISION}"
 }
 
 archive_asset_cache() {
