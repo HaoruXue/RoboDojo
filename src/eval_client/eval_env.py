@@ -40,7 +40,7 @@ def _patch_websockets_proxy_compat():
     websockets.connect = connect_without_proxy
 
 
-def create_eval_env(config, app, resume_state=None, **kwargs):
+def create_eval_env(config, app, resume_state=None, *, model_client_cls=WsModelClient, **kwargs):
     task_name = config.eval_cfg.get("task_name", None)
     if task_name is None:
         raise ValueError("Task name must be specified in eval_cfg!")
@@ -185,7 +185,7 @@ def create_eval_env(config, app, resume_state=None, **kwargs):
             evaluation_id = self.deploy_cfg.get("evaluation_id", self.run_id)
             trial_id = self.deploy_cfg.get("trial_id", f"{self.task_name}-{self.run_id}")
             action_case_id = self.deploy_cfg.get("action_case_id", f"{self.task_name}_case")
-            self.model_client = WsModelClient(
+            self.model_client = model_client_cls(
                 url=policy_server_url,
                 evaluation_id=evaluation_id,
                 trial_id=trial_id,
@@ -887,6 +887,8 @@ def create_eval_env(config, app, resume_state=None, **kwargs):
             lazily on the first frame (when the resolution is known) and write
             to temporary files until the episode outcome decides the name.
             """
+            if not self.eval_cfg.get("record_video", True):
+                return
             vision = frame.get("vision") if isinstance(frame, dict) else None
             if not vision:
                 return
