@@ -1,0 +1,21 @@
+# Eval layouts are stored per config_name (Assets/Eval_Layout/RoboDojo/arx_x5);
+# keep it so the YAM scenes reuse the benchmark layouts.
+config_name: arx_x5
+
+config:
+  sim: yam_sim
+  scene: default
+  robot: dual_yam
+  camera: yam_camera
+
+observation:
+  collect_freq: 30
+  robot:
+    joint_states: true
+    world_ee_state: true
+  vision:
+    approximate_depth: false
+    depth: false
+    intrinsic_matrix: false
+    extrinsic_matrix: false
+    shape: true

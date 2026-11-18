@@ -1,0 +1,9 @@
+# 1/300 s physics, 10 substeps per action: one action per 1/30 s, the YAM
+# hardware control period. Isaac's camera sensor requires the camera rate to
+# divide the (integer) render rate 1 / (dt * render_interval) = 30 Hz.
+decimation: 1
+dt: 0.0033333333333333335
+render_interval: 10
+scene:
+  num_envs: 1
+  env_spacing: 7

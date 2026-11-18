@@ -28,6 +28,9 @@ REAL_MAP = {
     "third_view": THIRD_VIEW,
     "d435": D435,
     "large_d435": LARGE_D435,
+    "yam_top": YAM_TOP,
+    "yam_wrist": YAM_WRIST,
+    "yam_top_zoom125": YAM_TOP_ZOOM125,
 }
 
 VISUAL_MAP = {
@@ -228,6 +231,11 @@ class CameraManager:
                 args_info = REAL_MAP.get(camera_config.camera.type, None)
                 if args_info is None:
                     raise ValueError(f"Camera type {camera_config.camera.type} not found in template map.")
+                args_info = dict(args_info)
+                if "resolution" in camera_config.camera:
+                    width, height = camera_config.camera.resolution
+                    args_info["resolution"] = (width, height)
+                    args_info["horizontal_aperture"] = args_info["vertical_aperture"] * width / height
 
                 if camera_config.camera.mesh == "kinect":
                     visual_args_info = VISUAL_MAP.get("kinect", None)
@@ -453,18 +461,15 @@ class CameraManager:
 
     def get_camera_intrinsics(self, cam_id: int, env_id: int = 0) -> np.ndarray:
         """
-        Return 3x3 intrinsic matrix K for the given camera, computed from config params.
-        Falls back to identity if the camera type has no focal/aperture info (e.g. Kinect USD).
+        Return 3x3 intrinsic matrix K from the camera's effective optics and resolution.
         """
-        camera_name = self.camera_names[env_id][cam_id]
-        camera_cfg = self.camera_config[camera_name]
-        args_info = REAL_MAP.get(camera_cfg.camera.type, None)
-        if args_info is None or "focal_length" not in args_info or "horizontal_aperture" not in args_info:
-            return np.eye(3, dtype=np.float64)
-        width, height = args_info["resolution"]
-        fx = (width * args_info["focal_length"]) / args_info["horizontal_aperture"]
+        camera = self.cameras[env_id][cam_id]
+        width, height = camera.get_resolution()
+        focal_length = camera.get_focal_length()
+        fx = width * focal_length / camera.get_horizontal_aperture()
+        fy = height * focal_length / camera.get_vertical_aperture()
         cx, cy = width / 2.0, height / 2.0
-        return np.array([[fx, 0, cx], [0, fx, cy], [0, 0, 1]], dtype=np.float64)
+        return np.array([[fx, 0, cx], [0, fy, cy], [0, 0, 1]], dtype=np.float64)
 
     def get_camera_extrinsics(self, cam_id: int, env_id: int) -> np.ndarray:
         """

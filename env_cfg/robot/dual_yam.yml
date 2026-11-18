@@ -1,0 +1,24 @@
+# Two YAM arms facing +y. The mounting-plate bottom is at the URDF base
+# origin, so place it on the table top (0.765). Bases are 0.62 m apart and
+# 0.25 m behind the training workspace origin.
+robots:
+  - {
+    robot_type: arm,
+    robot_name: yam,
+    coupled: False,
+    need_planner: False,
+    hold_targets: True,
+    default_root_pos: [-0.31, -0.5, 0.765],
+    default_root_rot: [0.70710678, 0, 0, 0.70710678],
+    grasp_perfect_direction: "top_down_little_right"
+  }
+  - {
+    robot_type: arm,
+    robot_name: yam,
+    coupled: False,
+    need_planner: False,
+    hold_targets: True,
+    default_root_pos: [0.31, -0.5, 0.765],
+    default_root_rot: [0.70710678, 0, 0, 0.70710678],
+    grasp_perfect_direction: "top_down_little_left"
+  }

@@ -40,7 +40,7 @@ def _patch_websockets_proxy_compat():
     websockets.connect = connect_without_proxy
 
 
-def create_eval_env(config, app, resume_state=None, **kwargs):
+def create_eval_env(config, app, resume_state=None, *, model_client_cls=WsModelClient, **kwargs):
     task_name = config.eval_cfg.get("task_name", None)
     if task_name is None:
         raise ValueError("Task name must be specified in eval_cfg!")
@@ -185,7 +185,7 @@ def create_eval_env(config, app, resume_state=None, **kwargs):
             evaluation_id = self.deploy_cfg.get("evaluation_id", self.run_id)
             trial_id = self.deploy_cfg.get("trial_id", f"{self.task_name}-{self.run_id}")
             action_case_id = self.deploy_cfg.get("action_case_id", f"{self.task_name}_case")
-            self.model_client = WsModelClient(
+            self.model_client = model_client_cls(
                 url=policy_server_url,
                 evaluation_id=evaluation_id,
                 trial_id=trial_id,
@@ -477,11 +477,14 @@ def create_eval_env(config, app, resume_state=None, **kwargs):
 
             This method returns a list with `interpolation_nums` control dicts
             (deep copies of the input), then overwrites arm/gripper positions
-            frame by frame:
+            frame by frame for robots without `hold_targets`:
 
             - First 80% (floor) steps: linear interpolation from current state
                 to target state.
             - Last 20% steps: hold the target state.
+
+            For target robots with `hold_targets`, every returned substep uses
+            the final processed arm and gripper positions.
 
             Notes:
             - Arm joints are interpolated in joint space.
@@ -556,6 +559,17 @@ def create_eval_env(config, app, resume_state=None, **kwargs):
                         ]
                         for i in range(interp_count, interpolation_nums):
                             control_info_list[i][key_name]["position"] = vals
+
+                if robot.type == "target" and robot.hold_targets:
+                    names = [robot.arm_name]
+                    if robot.ee_type == "gripper":
+                        names.append(robot.gripper_name)
+                    for name in names:
+                        key = self.robot_manager.process_name(name)
+                        if key in control_info:
+                            target = control_info_list[-1][key]["position"]
+                            for substep in control_info_list:
+                                substep[key]["position"] = list(target)
 
             return control_info_list
 
@@ -876,6 +890,8 @@ def create_eval_env(config, app, resume_state=None, **kwargs):
             lazily on the first frame (when the resolution is known) and write
             to temporary files until the episode outcome decides the name.
             """
+            if not self.eval_cfg.get("record_video", True):
+                return
             vision = frame.get("vision") if isinstance(frame, dict) else None
             if not vision:
                 return

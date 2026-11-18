@@ -1,6 +1,7 @@
 from collections.abc import Sequence
 from copy import deepcopy
 from importlib import import_module
+import os
 from typing import List, Literal
 
 from isaaclab.assets.articulation import ArticulationCfg
@@ -11,7 +12,7 @@ import torch
 import transforms3d as t3d
 
 from env.environment.isaac.isaac_rl_env import IsaacRLEnv
-from env.global_configs import ENV_REGEX_NAMESPACE
+from env.global_configs import ENV_REGEX_NAMESPACE, ROBOTS_PATH
 from env.planner_manager.curobo_planner import CuroboPlanner
 from env.robot_manager.control_manager import ControlManager, MetaControl
 from utils.ensure_usd_path import ensure_usd_path
@@ -479,14 +480,14 @@ class RobotManager:
                     else:
                         camera_name = name
 
-                    config[camera_name] = {
-                        "camera": {},
-                    }
+                    camera_overrides = config.get(camera_name, {}).get("camera", {})
+                    config[camera_name] = {"camera": {}}
                     _apply_camera_cfg(
                         camera,
                         config[camera_name]["camera"],
                         robot_mount_name,
                     )
+                    config[camera_name]["camera"].update(camera_overrides)
         finally:
             OmegaConf.set_struct(config, was_struct)
 
@@ -606,6 +607,8 @@ class RobotManager:
             robots = (robots,)
 
         scene_cfg = self._get_robot_cfg(robot_name=robot_name)
+        if "usd_path" in cfg:
+            scene_cfg.spawn.usd_path = os.path.join(ROBOTS_PATH, cfg["usd_path"])
 
         # Default rule:
         # - single robot: use robot.entity_origin_pose
@@ -631,6 +634,7 @@ class RobotManager:
 
         for robot in robots:
             robot.SceneCfg = scene_cfg
+            robot.hold_targets = cfg.get("hold_targets", False)
 
         return robots[0] if len(robots) == 1 else robots
 
@@ -673,6 +677,7 @@ class RobotManager:
 
 
 ROBOT_CLASS_REGISTRY = {
+    "yam": {"module": "x5", "classes": ("X5",)},
     "franka": {
         "module": "franka",
         "classes": ("Franka",),
@@ -685,6 +690,7 @@ ROBOT_CLASS_REGISTRY = {
 
 
 ROBOT_CONFIG_REGISTRY = {
+    "yam": "yam",
     "franka": "franka",
     "x5": "x5",
 }

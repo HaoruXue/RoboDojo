@@ -63,6 +63,7 @@ def resolve_random_task_num_envs(task_name, num_envs, sim_cfg):
     limit = scene_cfg.get("clutter_env_limit", 5)
     return min(int(num_envs), int(limit))
 
+
 def _task_setting(task_info, common_info, key, default):
     return task_info.get(key, common_info.get(key, default))
 
@@ -100,7 +101,11 @@ def process_config(env_cfg, task_name):
     default_robot = "dual_x5"
     robot_config = _task_setting(task_info, common_info, "robot_config", default_robot)
     if robot_config != default_robot:
+        selected_robots = env_cfg.robot.robots
         env_cfg.robot = load_yaml(os.path.join(ENV_CONFIG_PATH, "robot", robot_config + ".yml"))
+        if env_cfg.eval_cfg["config"]["robot"] != default_robot:
+            support = [robot for robot in env_cfg.robot.robots if robot.get("type", "target") != "target"]
+            env_cfg.robot.robots = list(selected_robots) + support
 
     if not _task_setting(task_info, common_info, "robot_self_collision", True):
         for cfg in env_cfg.robot.robots:

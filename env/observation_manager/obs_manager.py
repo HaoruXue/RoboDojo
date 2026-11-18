@@ -1,4 +1,5 @@
 from copy import deepcopy
+from math import isclose
 from typing import List
 
 import numpy as np
@@ -41,11 +42,13 @@ class ObsManager:
         self.capture_render_passes = int(self.obs_config.get("capture_render_passes", 1))
         self.capture_render_max_passes = int(self.obs_config.get("capture_render_max_passes", 16))
         if self.collect_freq > 0:
-            self.collect_interval = 1.0 / (self.dt * self.collect_freq)
+            interval = 1.0 / (self.dt * self.collect_freq)
+            rounded_interval = round(interval)
+            if rounded_interval <= 0 or not isclose(interval, rounded_interval, rel_tol=0.0, abs_tol=1e-9):
+                raise ValueError(f"Collect interval must be a positive integer, got {interval}")
+            self.collect_interval = rounded_interval
         else:
-            self.collect_interval = 0.0
-        if not self.collect_interval.is_integer():
-            raise ValueError("Collect Interval must be integer!")
+            self.collect_interval = 0
         vision_cfg = self.obs_config.get("vision", {})
         self.collect_approximate_depth = vision_cfg.get("approximate_depth", True)
         self.collect_depth = vision_cfg.get("depth", False)
